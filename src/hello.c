@@ -47,7 +47,7 @@ main (int argc, char *argv[])
 {
   int optc;
   int lose = 0;
-  const char *greeting_msg = _("Hello, world!");
+  const char *greeting_msg = _("git Hello, world!");
   wchar_t *mb_greeting;
   size_t len;
   greeting_type g = greet_traditional;
