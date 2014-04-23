@@ -159,7 +159,7 @@ Usage: %s [OPTION]...\n"), program_name);
   /* TRANSLATORS: --help output 2 (brief description)
      no-wrap */
   fputs (_("\
-Print a friendly, customizable greeting.\n"), stdout);
+xxxxxxxxxxxxxxxxxxxxxxxxxxPrint a friendly, customizable greeting.\n"), stdout);
 
   puts ("");
   /* TRANSLATORS: --help output 3: options 1/2
