@@ -47,7 +47,7 @@ main (int argc, char *argv[])
 {
   int optc;
   int lose = 0;
-  const char *greeting_msg = _("git Hello, world!");
+  const char *greeting_msg = _("Hello, world!");
   wchar_t *mb_greeting;
   size_t len;
   greeting_type g = greet_traditional;
@@ -159,7 +159,7 @@ Usage: %s [OPTION]...\n"), program_name);
   /* TRANSLATORS: --help output 2 (brief description)
      no-wrap */
   fputs (_("\
-xxxxxxxxxxxxxxxxxxxxxxxxxxPrint a friendly, customizable greeting.\n"), stdout);
+Print a friendly, customizable greeting.\n"), stdout);
 
   puts ("");
   /* TRANSLATORS: --help output 3: options 1/2
