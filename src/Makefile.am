@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-bin_PROGRAMS = hellogit
+bin_PROGRAMS = hello
 hello_SOURCES = hello.c system.h
 
 hello_LDADD = $(LIBINTL) $(top_builddir)/lib/lib$(PACKAGE).a
